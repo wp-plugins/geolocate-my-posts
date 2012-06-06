@@ -16,7 +16,7 @@ A Wordpress plugin that tags the location of the post.
 == Other Notes ==
 
 = To Do =
-[*] Improve CSS
+* Improve CSS
 
 == Installation ==
 
@@ -52,7 +52,7 @@ No, The locations are appended in your posts as you click publish, thus, You hav
 
 * Plugin in Action
 
-== Change Log ==
+== Changelog ==
 
 = 0.1 =
 Initial Release
