@@ -61,6 +61,6 @@ EOT;
 	return $data;
 }
 add_action( 'admin_enqueue_scripts',  'get_lat_lon'  );
-add_action( 'wp_ajax_my_action'    ,  'save_lat_lon' );
+add_action( 'wp_ajax_save_lat_lon' ,  'save_lat_lon' );
 add_filter( 'wp_insert_post_data'  ,  'addLocation'  );
 ?>

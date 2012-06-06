@@ -2,7 +2,7 @@ function onPositionUpdate(position)
 {
 	jQuery(document).ready(function($) {
 
-	var data = { action: 'my_action',
+	var data = { action: 'save_lat_lon',
 				 lat: position.coords.latitude,
 				 lon: position.coords.longitude };
 
