@@ -32,7 +32,9 @@ You may either install the plugin via the in-built installer in WordPress or fol
 Open up add_location.php in a Text editor like Vim, Gedit, TextMate etc, and Change
 
 if ( !defined( 'GMAPS_IMAGE_WIDTH'  ) ) define( 'GMAPS_IMAGE_WIDTH',  '400' );
+
 to
+
 if ( !defined( 'GMAPS_IMAGE_WIDTH'  ) ) define( 'GMAPS_IMAGE_WIDTH',  'YOUR_WIDTH_HERE' );
 
 Where YOUR_WIDTH_HERE is your desired width
@@ -40,7 +42,9 @@ Where YOUR_WIDTH_HERE is your desired width
 and Similarly, Change
 
 if ( !defined( 'GMAPS_IMAGE_HEIGHT' ) ) define( 'GMAPS_IMAGE_HEIGHT', '200' );
+
 to
+
 if ( !defined( 'GMAPS_IMAGE_HEIGHT' ) ) define( 'GMAPS_IMAGE_HEIGHT', 'YOUR_HEIGHT_HERE' );
 
 Where YOUR_HEIGHT_HERE is your desired Height.
