@@ -29,7 +29,7 @@ You may either install the plugin via the in-built installer in WordPress or fol
 == Frequently Asked Questions ==
 
 = How do I change the Map's Image Width ? =
-Open up add_location.php in a Text editor like Vim, Gedit, TextMate etc, and Change
+Open up add-location.php in a Text editor like Vim, Gedit, TextMate etc, and Change
 
 if ( !defined( 'GMAPS_IMAGE_WIDTH'  ) ) define( 'GMAPS_IMAGE_WIDTH',  '400' );
 
