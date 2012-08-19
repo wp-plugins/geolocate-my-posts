@@ -7,16 +7,11 @@ Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Wordpress plugin that tags the location of the post.
+A Wordpress plugin that tags the location of your posts using the Google Maps API.
 
 == Description ==
 
 "Geolocate My Posts" adds location to your posts, including a nice map, using geolocation and the Google Maps API.
-
-== Other Notes ==
-
-= To Do =
-* Improve CSS
 
 == Installation ==
 
@@ -28,22 +23,8 @@ You may either install the plugin via the in-built installer in WordPress or fol
 
 == Frequently Asked Questions ==
 
-= How do I change the Map's Image Width ? =
-Open up add_location.php in a Text editor like Vim, Gedit, TextMate etc, and Change
-
-if ( !defined( 'GMAPS_IMAGE_WIDTH'  ) ) define( 'GMAPS_IMAGE_WIDTH',  '400' );
-to
-if ( !defined( 'GMAPS_IMAGE_WIDTH'  ) ) define( 'GMAPS_IMAGE_WIDTH',  'YOUR_WIDTH_HERE' );
-
-Where YOUR_WIDTH_HERE is your desired width
-
-and Similarly, Change
-
-if ( !defined( 'GMAPS_IMAGE_HEIGHT' ) ) define( 'GMAPS_IMAGE_HEIGHT', '200' );
-to
-if ( !defined( 'GMAPS_IMAGE_HEIGHT' ) ) define( 'GMAPS_IMAGE_HEIGHT', 'YOUR_HEIGHT_HERE' );
-
-Where YOUR_HEIGHT_HERE is your desired Height.
+= How do I change the Map's Image Width ?
+Go to Admin Panel->Settings->Post Geolocation Settings, and do the needful.
 
 = If I disable the plugin, will all the Locations from my Posts be removed? =
 No, The locations are appended in your posts as you click publish, thus, You have to devise a way to manually delete the locations if you wish to do so.
@@ -53,6 +34,13 @@ No, The locations are appended in your posts as you click publish, thus, You hav
 * Plugin in Action
 
 == Changelog ==
+
+= 0.2 =
+Final Release, No further development expected.
+
+* The geolocation javascript is only enqueued at pages where its necessary.
+* Use transients instead of options to store latitude, longitude.
+* Added customization.
 
 = 0.1 =
 Initial Release
