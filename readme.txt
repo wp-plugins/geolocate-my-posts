@@ -2,7 +2,7 @@
 Contributors: lionaneesh
 Tags: geo-locate, location, gmaps, Google Maps, add location to posts, locate my posts, geo-locate my posts
 Requires at least: 2.6
-Tested up to: 3.3.2
+Tested up to: 3.4.1
 Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
