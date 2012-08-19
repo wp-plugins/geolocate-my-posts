@@ -23,7 +23,7 @@ You may either install the plugin via the in-built installer in WordPress or fol
 
 == Frequently Asked Questions ==
 
-= How do I change the Map's Image Width ?
+= How do I change the Map's Image Width ? =
 Go to Admin Panel->Settings->Post Geolocation Settings, and do the needful.
 
 = If I disable the plugin, will all the Locations from my Posts be removed? =
