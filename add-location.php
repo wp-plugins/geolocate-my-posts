@@ -1,13 +1,13 @@
 <?php
 /**
  * @package 
- * @version 0.1
+ * @version 0.2
  */
 /*
 Plugin Name: Geolocate My Posts
 Description: A Wordpress plugin that tags the location of your posts using the Google Maps API.
 Author: Aneesh Dogra
-Version: 0.1
+Version: 0.2
 Author URI: anee.me
 */
 
